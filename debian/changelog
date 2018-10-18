@@ -1,3 +1,9 @@
+r8168 (8.045.08-2rangeeos1) rangeeos; urgency=medium
+
+  * Custom modprobe configuration for RangeeOS
+
+ -- René Vögeli <rvoegeli@rangee.com>  Thu, 18 Oct 2018 10:39:29 +0200
+
 r8168 (8.045.08-2) unstable; urgency=medium
 
   * linux-4.15-2.patch: New, from Arch Linux, fix building the module for
