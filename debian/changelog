@@ -1,0 +1,216 @@
+r8168 (8.045.08-2) unstable; urgency=medium
+
+  * linux-4.15-2.patch: New, from Arch Linux, fix building the module for
+    Linux 4.15.  (Closes: #882838) (LP: #1737755)
+  * Bump Standards-Version to 4.1.3 (no changes needed).
+  * Switch to debhelper compat level 11.
+  * Set Rules-Requires-Root: no.
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 12 Jan 2018 00:55:37 +0100
+
+r8168 (8.045.08-1) unstable; urgency=medium
+
+  * New upstream release 8.045.08 (2017-09-15).  (Closes: #876085)
+  * linux-4.11.patch: Remove, fixed upstream.
+  * Use dpkg makefile snippets instead of manual changelog parsing.
+  * Set Priority to optional.
+  * Bump Standards-Version to 4.1.1.
+  * Set XS-Autobuild: yes.
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 04 Oct 2017 15:48:48 +0200
+
+r8168 (8.044.02-2) unstable; urgency=medium
+
+  * linux-4.11.patch: New, fix building the module for Linux 4.11, thanks to
+    Jan Schwarzrock.  (Closes: #864867)
+  * Bump Standards-Version to 4.0.0 (no changes needed).
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 08 Jul 2017 23:29:30 +0200
+
+r8168 (8.044.02-1) unstable; urgency=medium
+
+  * New upstream release 8.044.02 (2017-02-13).
+  * linux-2.6.32.patch: Remove, fixed upstream.
+  * Switch to debhelper compat level 10.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 21 Feb 2017 03:05:24 +0100
+
+r8168 (8.043.02-1) unstable; urgency=medium
+
+  * New upstream release 8.043.02 (2016-10-25).
+  * linux-4.7.patch: Remove, fixed upstream.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 05 Nov 2016 10:35:19 +0100
+
+r8168 (8.042.00-2) unstable; urgency=medium
+
+  * linux-4.7.patch: New, from Arch Linux, fix building the module for
+    Linux 4.7.  (Closes: #836961) (LP: #1647916)
+  * linux-2.6.32.patch: New, fix building the module for Linux 2.6.32.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 12 Sep 2016 11:09:22 +0200
+
+r8168 (8.042.00-1) unstable; urgency=medium
+
+  * New upstream release 8.042.00 (2016-05-12).
+  * linux-4.5.patch: Remove, fixed upstream.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 28 May 2016 12:42:06 +0200
+
+r8168 (8.041.01-1) unstable; urgency=medium
+
+  * New upstream release 8.041.01 (2016-01-12).
+  * linux-4.5.patch: New, fix building the module for Linux 4.5.
+    (LP: #1635824)
+  * Bump Standards-Version to 3.9.6 (no changes needed).
+  * Update Vcs-Git URL.
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 08 Apr 2016 18:34:17 +0200
+
+r8168 (8.041.00-1) unstable; urgency=medium
+
+  [ Andreas Beckmann ]
+  * New upstream release 8.041.00 (2015-12-08).  (Closes: #808124)
+  * Update watch file to use the https://github.com/mtorromeo/r8168 mirror.
+
+  [ Dmitry Smirnov ]
+  * Remove myself from Uploaders.
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 18 Dec 2015 14:18:32 +0100
+
+r8168 (8.040.00-1) unstable; urgency=medium
+
+  * New upstream release 8.040.00 (2015-05-14).  (LP: #1487605)
+  * Move package to non-free, appears to apply binary patches to firmware.
+    (Closes: #777257)
+  * Bump Standards-Version to 3.9.6 (no changes needed).
+  * Update Homepage and Vcs-Browser URLs.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 23 Jun 2015 12:55:20 +0200
+
+r8168 (8.039.00-1) unstable; urgency=medium
+
+  * New upstream release 8.039.00 (2014-09-18).
+    (Closes: #760980, #743399, #756183) (LP: #1363072, #1422825)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 28 Sep 2014 04:22:52 +0200
+
+r8168 (8.038.00-1) unstable; urgency=medium
+
+  * New upstream release 8.038.00 (2014-03-04).
+  * Update watch file.
+  * Bump Standards-Version to 3.9.5 (no changes needed).
+  * Use module aliases for PCI IDs supported by r8168 instead of blacklisting
+    r8169.  (Closes: #739394)
+  * Update model list in package description.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 21 Apr 2014 22:16:01 +0200
+
+r8168 (8.037.00-1) unstable; urgency=low
+
+  * New upstream release 8.037.00 (2013-09-24).  (LP: #1216906)
+  * kernel-3.10.patch: Remove, fixed upstream.
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 16 Oct 2013 23:53:46 +0200
+
+r8168 (8.036.00-2) unstable; urgency=low
+
+  * kernel-3.10.patch: New, fix building the module for kernel 3.10.
+    (Closes: #717161)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 21 Jul 2013 20:44:48 +0200
+
+r8168 (8.036.00-1) unstable; urgency=low
+
+  * New upstream release 8.036.00 (2013-06-17).
+  * kernel-3.8.patch: Remove, fixed upstream.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 02 Jul 2013 10:50:38 +0200
+
+r8168 (8.035.00-2) unstable; urgency=low
+
+  * kernel-3.8.patch: New, fix building the module for kernel 3.8+ that has
+    removed the __dev* attributes.  (Closes: #706978) (LP: #1108068, #1156283)
+  * Use canonical Vcs-* URLs.
+  * Switch to debhelper 9.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 07 May 2013 10:02:12 +0200
+
+r8168 (8.035.00-1) unstable; urgency=low
+
+  * New upstream release 8.035.00 (2012-12-21).
+  * Update my email address and drop DMUA.
+  * Switch to Standards-Version: 3.9.4 (no changes needed).
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 25 Jan 2013 19:55:16 +0100
+
+r8168 (8.034.00-1) unstable; urgency=low
+
+  * New upstream release 8.034.00 (2012-11-02).
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 23 Nov 2012 20:56:53 +0100
+
+r8168 (8.032.00-1) unstable; urgency=low
+
+  * New upstream release 8.032.00 (2012-08-01).
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 12 Sep 2012 13:32:29 +0200
+
+r8168 (8.031.00-1) unstable; urgency=low
+
+  * New upstream release 8.031.00 (2012-05-28).
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 08 Jun 2012 06:47:43 +0200
+
+r8168 (8.030.00-1) unstable; urgency=low
+
+  * New upstream release 8.030.00 (2012-05-14).
+  * Add update-initramfs hook to install the r8168 module in the initrd.
+    (Closes: #669052)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 23 May 2012 02:08:12 +0200
+
+r8168 (8.029.00-1) unstable; urgency=low
+
+  [ Dmitry Smirnov ]
+  * d-watch: fetch directly from code.google.com
+
+  [ Andreas Beckmann ]
+  * New upstream release 8.029.00 (2012-03-29).
+  * debian/copyright: Use final copyright-format 1.0 URL and bump years.
+  * Bump Standards-Version to 3.9.3 (no changes needed).
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 04 Apr 2012 10:50:07 +0200
+
+r8168 (8.028.00-1) unstable; urgency=low
+
+  * New upstream release 8.028.00 (2012-02-03).
+  * Drop 001_build-with-kernel-3.2.x.diff, fixed upstream.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 17 Feb 2012 11:31:30 +0100
+
+r8168 (8.027.00-2) unstable; urgency=low
+
+  [ Julien Valroff ]
+  * Add patch to fix build with Linux kernel >= 3.2.  (Closes: #656734)
+
+  [ Andreas Beckmann ]
+  * Do not break build with Linux kernel < 3.2 while fixing >= 3.2.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Sun, 29 Jan 2012 16:33:48 +0100
+
+r8168 (8.027.00-1) unstable; urgency=low
+
+  * New upstream release 8.027.00 (2011-12-01).
+  * Move git repository to git://git.debian.org/git/collab-maint/r8168.git
+  * Add Dmitry Smirnov to Uploaders.
+  * Work around dkms bug #651973 by adding BUILT_MODULE_NAME to dkms.conf.
+  * Remove executable permission from module source code.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 14 Dec 2011 18:13:15 +0100
+
+r8168 (8.026.00-1) unstable; urgency=low
+
+  * Initial release.  (Closes: #642198, #648286)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 16 Nov 2011 13:50:53 +0100
